@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #274C77;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("—Pngtree—vintage pencil drawing mountain peaks_6523801.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  margin: 25px;
+  font-family: 'Cedarville Cursive', cursive;
+  color: #E7ECEF;
+  background: transparent;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  text-decoration: underline 3px black;
 }
 
-.App-link {
-  color: #61dafb;
+h2{
+  color: #E7ECEF;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  border-radius: 20px;
+  background: #274C77;
+  box-shadow:  7px 7px 10px #101e30,
+  -7px -7px 10px #3e7abe;
+             height: 70vh;
+             width: 85vw;
+
+}
+
+.box-heading{
+  margin: 2rem;
+}
+
+.rec{
+  margin: 3rem;
+  color: #E7ECEF;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+
+button {
+  border: none;
+  margin: 10px;
+  margin-left: 150px;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #274C77;
+  box-shadow:  12px 12px 24px #214064,
+               -12px -12px 24px #2d588a;
+               color: #E7ECEF;
+               font-size: 1rem;
+}
+button:hover{
+  cursor: pointer;
+}
+
+p{
+  width: 50rem;
+  margin: 2.5rem;
+  margin-top: 0;
+  padding: 20px;
+  border-radius: 12px;
+  background: #274C77;
+  box-shadow:  12px 12px 24px #214064,
+               -12px -12px 24px #2d588a;
+               color: #E7ECEF;
+               font-size: 1rem;
+}
+
+.TsH{
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
 }
