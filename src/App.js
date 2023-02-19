@@ -3,7 +3,7 @@ import './App.css'
 import axios from 'axios';
 
 const SpeechRecognition =
-  window.SpeechRecognition || window.webkitSpeechRecognition
+  window.SpeechRecognition || window.webkitSpeechRecognition 
 const mic = new SpeechRecognition()
 
 mic.continuous = true
@@ -82,7 +82,7 @@ function App() {
 
   return (
     <div className='body'>
-      <h1>Assignment</h1>
+      <h1>Translator</h1>
       <div className="container">
           <h2 className='box-heading'>Translation Box</h2>
           {isListening ? <span className='rec'>Click to stop!🛑</span> : <span className='rec'>Click to start recording.🪩</span>}
